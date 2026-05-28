@@ -60,6 +60,11 @@
 			<artifactId>spring-boot-starter-webmvc-test</artifactId>
 			<scope>test</scope>
 		</dependency>
+        <dependency>
+            <groupId>org.postgresql</groupId>
+            <artifactId>postgresql</artifactId>
+            <scope>runtime</scope>
+        </dependency>
 	</dependencies>
 
 	<build>
@@ -91,7 +96,7 @@
 								<path>
 									<groupId>org.projectlombok</groupId>
 									<artifactId>lombok</artifactId>
-									<version>1.18.38</version>
+									<version>1.18.30</version>
 								</path>
 							</annotationProcessorPaths>
 						</configuration>
@@ -107,7 +112,7 @@
 								<path>
 									<groupId>org.projectlombok</groupId>
 									<artifactId>lombok</artifactId>
-									<version>1.18.38</version>
+									<version>1.18.30</version>
 								</path>
 							</annotationProcessorPaths>
 						</configuration>
